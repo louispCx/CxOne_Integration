@@ -88,6 +88,6 @@ jobs:
               curl --location --request POST "$pr_comment_url" \
               -u $GH_USER:$GH_TOKEN \
               --header 'Content-Type: application/json' \
-              --data "@cx_github_pullrequest_comment.json"
+              --data "louis commented"
             fi
 
